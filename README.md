@@ -3,7 +3,7 @@ Primera actividad del curso de: CSU · Cidium Security University
 
 By: Angel Higuera​
 
-## ¿Quien soy?
+## ¿Quién soy?
 Mi nombre es Angel Abraham Higuera Pineda. 
 Soy una persona responsable y apasionada por el aprendizaje constante, que siempre busca dar el máximo esfuerzo en cada actividad técnica que emprendo.
 
