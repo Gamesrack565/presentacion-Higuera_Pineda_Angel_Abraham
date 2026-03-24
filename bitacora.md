@@ -1,5 +1,6 @@
 # Bitacora: Higuera Pineda Angel Abraham
 **Fecha:** 23/03/26
+**Duración estimada:** 2 horas
 
 ## Pasos ejecutados:
 
@@ -80,7 +81,7 @@ Cambiado a nueva rama 'semana2-arranque'
 Resultado:
 gamesrack@primekub-inspiron153525:~/presentacion-Higuera_Pineda_Angel_Abraham$ nano README.md 
 
-6. **Guarda el cambio:** Ejecuté `git add .`, verifiqué con `git status` y creé el commit con `git commit -m "Se agrega username y color favorito como cabecera a readme"`.
+6. **Guarda el cambio:** Ejecuté `git add .`, verifiqué con `git status` y creé el commit.
 Resultado:
 gamesrack@primekub-inspiron153525:~/presentacion-Higuera_Pineda_Angel_Abraham$ git add .
 gamesrack@primekub-inspiron153525:~/presentacion-Higuera_Pineda_Angel_Abraham$ git status
@@ -88,9 +89,12 @@ En la rama semana2-arranque
 Cambios a ser confirmados:
   (usa "git restore --staged <archivo>..." para sacar del área de stage)
         modificados:     README.md
+gamesrack@primekub-inspiron153525:~/presentacion-Higuera_Pineda_Angel_Abraham$ git commit -m "Version 0.2 - Se agrego informacion del color favorito en la nueva seccion llamada Semana 2"
+[semana2-arranque 4f2e548] Version 0.2 - Se agrego informacion del color favorito en la nueva seccion llamada Semana 2
+ 1 file changed, 2 insertions(+)
 
 7. **Sube el cambio:** Ejecuté `git push origin semana2-arranque` para subir mi rama a GitHub.
-amesrack@primekub-inspiron153525:~/presentacion-Higuera_Pineda_Angel_Abraham$ git push origin semana2-arranque
+gamesrack@primekub-inspiron153525:~/presentacion-Higuera_Pineda_Angel_Abraham$ git push origin semana2-arranque
 Enumerando objetos: 5, listo.
 Contando objetos: 100% (5/5), listo.
 Compresión delta usando hasta 16 hilos
@@ -105,7 +109,15 @@ remote:
 To https://github.com/Gamesrack565/presentacion-Higuera_Pineda_Angel_Abraham.git
  * [new branch]      semana2-arranque -> semana2-arranque
 
-## Problemas encontrados:
+## Comandos destacados
+
+| Comando | Qué hizo |
+| --- | --- |
+| `git clone` | Descargó una copia local de mi repositorio remoto desde GitHub hacia mi entorno en Kubuntu. |
+| `git status` | Me mostró el estado del árbol de trabajo, confirmando qué archivos estaban en el área de preparación antes del commit. |
+| `git checkout -b` | Creó una nueva rama llamada `semana2-arranque` y cambió mi entorno de trabajo a ella de manera simultánea. |
+
+## Problemas encontrados
 
 **Problema:** Al intentar hacer `git push`, Kubuntu había guardado una contraseña incorrecta en su gestor de carteras (KWallet), lo que bloqueaba la autenticación. Posteriormente, al ingresar el Personal Access Token, obtuve un error 403 (Forbidden).
 
