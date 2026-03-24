@@ -30,3 +30,9 @@ Espero interactuar con laboratorios virtuales de defensa y ataque controlado, ad
 **GitHub:** [gamesrack](https://github.com/Gamesrack565)
 
 **Identificación:** Angel Abraham Higuera Pineda
+
+
+## SEMANA 2:  Uso de nueva rama.
+
+Color favorito: Morado
+MOdificación nueva
